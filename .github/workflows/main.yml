@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/chekout@v3 # Checkout the repository
+      - uses: actions/checkout@v3 # Checkout the repository
       - name: Use Node
 
         uses: actions/setup-node@v4
